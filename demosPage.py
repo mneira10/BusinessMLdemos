@@ -2,13 +2,11 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from demandPrediction import productPredDemand
+from sentimentAnalysis import sentimentAnalisis
+from customerChurn import customerChurn
 
 
-def customerChurn():
-    st.title('Fuga de clientes')
     
-def sentimentAnalisis():
-    st.title('Análisis de sentimientos')
     
 def main():
     st.sidebar.title("""Demos algoritmos predictivos""")
